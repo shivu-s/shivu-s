@@ -1,0 +1,79 @@
+*{
+    box-sizing:border-box;
+    background-color: transparent;
+}
+header{
+    background-color: rgba(245, 27, 136, 0.44);
+    text-align: justify;
+    text-decoration-color: antiquewhite;
+    font-size: 240px;
+    font-family: initial;
+    font-weight: 900px;
+    font-style: oblique;
+    font-display: 400px;
+    text-decoration: solid;
+    text-shadow: 4px 3px 4px black ;
+}
+body{
+    margin: 15px 40px;
+    padding: 10px;
+    text-align: starts;
+}
+nav{
+    background-color: rgb(128, 128, 158);
+    color: black;
+    margin: 2px 2px;
+    border: black;
+    border-width: 100px;
+    border: 3px solid rgb(19, 17, 17);
+    content: none;
+    word-spacing: 150px;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 1px;
+    text-align: center;
+}
+.logo{
+    position:relative;
+    bottom:8px;
+    left: 6px;
+    clip-path: circle(50% at 50% 50%);
+    width: 150px;
+    flex-direction: row;
+    flex: 2px;
+    flex-wrap: wrap;
+    text-align: start;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    background-color: rgb(155, 171, 185);
+    color: rgb(43, 127, 206);
+    font-style: oblique;
+    font-family: initial;
+}
+h2{
+    font-weight: 900;
+}
+p{
+    font-size: x-large;
+    font-weight: 500;
+    padding: 50px 500px;
+    text-align: justify;
+}
+@media screen and (width = 360px) {
+    body{
+        color: black;
+    }
+}
+@media all{
+    body{
+        color: black;
+    }
+}
+.container{
+    width: 1925px;
+    height: 5000px;
+}
